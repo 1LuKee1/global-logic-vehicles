@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn" name="vehicles" packages="">
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="error">
+            <AppenderRef ref="STDOUT"/>
+        </Root>
+    </Loggers>
+</Configuration>
+
+
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">-->
+<!--<log4j:configuration debug="false">-->
+<!--    &lt;!&ndash;Console appender &ndash;&gt;-->
+<!--    <appender name="stdout" class="org.apache.log4j.ConsoleAppender">-->
+<!--        <layout class="org.apache.log4j.PatternLayout">-->
+<!--            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %p %m%n"/>-->
+<!--        </layout>-->
+<!--    </appender>-->
+<!--    <logger name="global-logic-vehicles.Main" />-->
+<!--    <root>-->
+<!--        <level value="DEBUG"/>-->
+<!--        <appender-ref ref="stdout"/>-->
+<!--    </root>-->
+<!--</log4j:configuration>-->
