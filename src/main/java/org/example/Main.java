@@ -3,6 +3,8 @@ package org.example;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.example.domain.Vehicle;
+import org.example.domain.VehicleStorage;
 
 import java.util.List;
 import java.util.Map;
@@ -15,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        Map<String, List<Vehicle>> vehicles = Vehicles.getSampleVehicles();
+        Map<String, List<Vehicle>> vehicles = VehicleStorage.getSampleVehicles();
 
 
         while (true) {

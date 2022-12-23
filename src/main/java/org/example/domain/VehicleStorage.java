@@ -1,11 +1,11 @@
-package org.example;
+package org.example.domain;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Vehicles {
+public class VehicleStorage {
 
     public static Map<String, List<Vehicle>> getSampleVehicles() {
         Map<String, List<Vehicle>> vehicles = new HashMap<>();

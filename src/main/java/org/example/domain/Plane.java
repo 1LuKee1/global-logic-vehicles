@@ -1,18 +1,18 @@
-package org.example;
+package org.example.domain;
 
-public class Car implements Vehicle {
+public class Plane implements Vehicle {
 
     private String company;
     private double maxSpeed;
 
-    public Car(String manufacturer, double maxSpeed) {
-        this.company = manufacturer;
+    public Plane(String company, double maxSpeed) {
+        this.company = company;
         this.maxSpeed = maxSpeed;
     }
 
     @Override
     public String getType() {
-        return "CAR";
+        return "PLANE";
     }
 
     @Override
@@ -27,7 +27,7 @@ public class Car implements Vehicle {
 
     @Override
     public String toString() {
-        return "Car{" +
+        return "Plane{" +
                 "company='" + company + '\'' +
                 ", maxSpeed=" + maxSpeed +
                 '}';
